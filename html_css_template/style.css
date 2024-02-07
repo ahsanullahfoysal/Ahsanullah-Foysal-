@@ -1,0 +1,124 @@
+
+.hedpic{
+    padding-top: 20px;
+}
+.date{
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+.social{
+margin-top:10px;
+}
+.live>span{
+    background: red;
+    color: aliceblue;
+    font-size: 25px;
+    padding:10px;
+}
+.icon{
+    font-size: 25px;
+
+}
+.icon:hover{
+    color: aquamarine;
+}
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  .list{
+    height: 50px;
+    background: red;
+  }
+  ul{
+    list-style-type: none;
+
+  }
+  ul>li{
+    display: inline-block;
+    padding-left:10px;
+    color: aliceblue;
+    font-weight: 700;
+  }
+  ul>li:hover{
+    font-size: 20px;
+    background:green;
+    cursor: pointer;
+  }
+  .dropdown{
+    position: relative;
+  }
+.dropdown-list{
+    position: absolute;
+    top: 44   px;
+    background: #000000;
+    display: none;
+}
+.dropdown:hover > .dropdown-list{
+  display: block;
+}
+.top-content{
+  margin-top:20px ;
+}
+.ad{
+  margin-top: 10px;
+}
+.video{
+  margin: 10px;
+}
+.latest-more{
+  background: red;
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  padding: 0 5px 0 5px;
+}
+.top-right{
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  clear: both;
+}
+.has{
+  padding-top:30px;
+ 
+}
+.str{
+  padding-left:80px;
+}
+.chanel{
+ 
+  border-color: red;
+  height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 500px;
+}
+.nam{
+padding-top: 40px;
+}
+.box{
+  width: 100%;
+  background: red;
+  height:30px;
+  position:sticky;
+}
+.line{
+  border-left:1px #fff;
+  border-right:1px solid #fff;
+  box-sizing: border-box;
+ padding-top: 10px;
+}
