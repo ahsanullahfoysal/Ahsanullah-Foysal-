@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contact-child{
+    margin: 100px;
+   margin-left: 10%;
+}
+.our{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+h3{
+    margin: 10px;
+    font-size: 40px;
+}
+.follow{
+    background:#a6b1d8;
+    margin-top: 80px;
+    font-size:small;
+    padding: 20px 42px;
+    box-shadow: 4px 4px 0 #131313 !important;
+  }
+  .follow:hover{
+    box-shadow:6px 6px 0 #98d7e5 !important;
+  }
+  .thank{
+    background: pink;
+    height: 500px;
+    margin: 50px;
+  }
+  .you{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 76px;
+  }
+  .us{
+    height: 600px;
+    background: #052c2f;
+  }
+  .help{
+    color: aliceblue;
+   padding: 15px;
+    text-align: center;
+  }
+  .form{
+    height:400px;
+    width: 40%;
+    text-align: center;
+    border: 1px solid white;
+    margin-left: 30%;
+    background:gray;
+  }
+  label{
+    color: white;
+    padding: 15px;
+  }
+  .fr{
+    margin-top:5px;
+  }
+  .fr1{
+    margin-top: 25px;
+  }
+  .but{
+    background: rgb(7, 224, 18);
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+  }
+  .but:hover{
+    background: red;
+    
+  }
+  .sub{
+   margin-left: 70px;
+  }
+  
