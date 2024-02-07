@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Baloo Chettan 2', cursive !important;
+    padding-bottom: -50px;
+}
+.menuItem{
+    color: white;
+    font-weight: 500 !important;
+}
+.active{
+    color: black ;
+}
+.menuItem:hover{
+    color: black;
+}
+.bg-red{
+    background-color: #ff0000;
+}
+.bg-danger{
+    background-color: #e90102 !important;
+}
+.bannerBg{
+    background-image: url(../image/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    max-width: 100%;
+}
+/* slider */
+.menuBtn:focus{
+    box-shadow: unset;
+}
+.sliderBtn{
+    height: 15px !important;
+    width: 15px !important;
+    background-color: black !important;
+    opacity: 1 !important;
+}
+.text-danger{
+    color: #e90102 !important;
+}
+.bg-danger{
+    background-color: #e90102 !important;
+}
+/* slider */
+.btnHover{
+    transition: 1s;
+}
+.btnHover:hover{
+    background-color: #e90102;
+    color: white;
+}
+.bannerImage{
+    transform: scale(2);
+}
+.UpperOne{
+    z-index: 1;
+}
+.indicators .carousel-indicators{
+    display: block;
+    right: inherit;
+    margin-left: 20px;
+    bottom: 0;
+}
+.indicators .carousel-indicators li.active {
+    background-color: red!important;
+}
+/* about */
+.forLeftUp{
+    left: .5rem;
+    top: 0;
+    z-index: 1;
+}
+.forRightBottom{
+    right: .5rem;
+    bottom: 0;
+    z-index: 1;
+}
+.aboutImg{
+    position: relative;
+}
+.aboutPosition{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/* classes */
+.forLeftMid{
+    left: .5rem;
+    top: 45%;
+    z-index: 1;
+}
+/* testi start */
+.forRightMid{
+    right: .5rem;
+    top: 45%;
+    z-index: 1;
+}
+.h2Hover{
+    transition: all 1s;
+}
+.h2Hover:hover{
+    color: #e90102;
+}
+.testi{
+    background-image: url(../image/test_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.testIndicate .carousel-indicators li{
+    background-color: #e90102 !important;
+    opacity: 1;
+    height: 12px;
+    width: 50px;
+    /* border-radius: 20px; */
+    margin: 0px -1px 0px -1px;
+}
+.testIndicate .carousel-indicators li.active{
+    background-color: black !important;
+}
+/* testi end */
+
+.sendbtn{
+    border-radius: 15px;
+    font-weight: 500;
+    transition: all 1s;
+}
+.sendbtn:hover{
+    background-color: #e90102 !important;
+}
+input:focus{
+    outline: 0px ;
+}
+.iconHover{
+    transition: .3s;
+}
+.iconHover:hover{
+    color: #e90102;
+    cursor: pointer;
+}
