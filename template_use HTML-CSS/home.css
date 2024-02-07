@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hom{
+    background:#a6b1d8;
+    height: 1700px;
+}
+.explore{
+    font-size: 70px;
+  padding-left: 25%;
+    margin-top: 100px;
+    font-weight: 700;
+}
+.hom_2nd{
+    margin-top:50px;
+    display: flex;
+    height: 700px;
+   padding-left: 13%;
+    justify-content: space-evenly;
+}
+.learn{
+    padding: 20px;
+    color: rgb(120, 126, 126);
+    font-size: 22px;
+}
+.advise{
+    height: 600px;
+    background: rgb(209, 209, 63);
+    margin-top: 40PX;
+}
+.speak{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 70PX;
+}
